@@ -1,0 +1,35 @@
+{
+  "name": "scoreboard",
+  "version": "1.0.0",
+  "description": "A library to keep score of football games",
+  "main": "src/index.js",
+  "license": "ISC",
+  "author": "Sean McGowan",
+  "bugs": {
+    "url": "https://bitbucket.org/stingrayfunk/scoreboard/issues"
+  },
+  "homepage": "https://bitbucket.org/stingrayfunk/scoreboard#readme",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/stingrayfunk/scoreboard.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/preset-env": "^7.18.10",
+    "babel-jest": "^28.1.3",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
